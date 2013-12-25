@@ -1,0 +1,17 @@
+{
+  "name": "domlt",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "license" : "MIT",
+  "description": "obtain [left, top] from an element",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/domwh.git"
+  },
+  "keywords": [
+    "left",
+    "top",
+    "element",
+    "dom"
+  ]
+}
