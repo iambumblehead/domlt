@@ -1,9 +1,10 @@
 {
   "name": "domlt",
-  "version": "0.0.1",
+  "main": "domlt",
+  "version": "0.0.2",
   "readmeFilename": "README.md",
   "license" : "MIT",
-  "description": "obtain [left, top] from an element",
+  "description": "return [left, top] from an element",
   "repository": {
     "type": "git",
     "url": "https://github.com/iambumblehead/domwh.git"
