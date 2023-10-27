@@ -5,9 +5,9 @@ domlt
 Nothing special here. Just a wrapper for returning left and top in an array.
 
  ```javascript
-const domlt = module.exports = elem => {
+elem => {
   const rect = elem instanceof Element &&
-          elem.getBoundingClientRect();
+    elem.getBoundingClientRect();
 
   return rect ? [rect.left, rect.top] : [0,0];
 }; 
@@ -17,7 +17,7 @@ const domlt = module.exports = elem => {
 [0]: http://www.bumblehead.com                            "bumblehead"
 
 
- ![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png) 
+ ![scrounge](https://github.com/iambumblehead/scroungejs/raw/main/img/hand.png) 
 
 (The MIT License)
 

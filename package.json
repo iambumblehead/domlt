@@ -1,13 +1,20 @@
 {
   "name": "domlt",
-  "main": "domlt",
-  "version": "0.0.2",
+  "type": "module",
+  "version": "0.0.3",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "description": "return [left, top] from an element",
+  "main": "domlt.js",
+  "exports": {
+    "import": "./domlt.js"
+  },
+  "files": [
+    "./domlt.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iambumblehead/domwh.git"
+    "url": "git+https://github.com/iambumblehead/domwh.git"
   },
   "keywords": [
     "left",
