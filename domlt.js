@@ -5,9 +5,9 @@
 // documentElement.getBoundingClientRect() is mature and widely supported:
 // https://developer.mozilla.org/en-US/docs/Web/API/Element.getBoundingClientRect
 
-const domlt = module.exports = elem => {
+export default elem => {
   const rect = elem instanceof Element &&
-          elem.getBoundingClientRect();
+    elem.getBoundingClientRect()
 
-  return rect ? [rect.left, rect.top] : [0,0];
-};
+  return rect ? [rect.left, rect.top] : [0,0]
+}
